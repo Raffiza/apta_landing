@@ -10,7 +10,7 @@ export const AboutUsContainer = styled.div`
 `;
 
 export const ContentWrapper = styled.div`
-  max-width: 1000px;
+  max-width: 1400px;
   /* background-color: beige; */
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -58,23 +58,28 @@ flex-direction: column;
 `
 
 export const Heading = styled.h1`
-  font-size: 2.5rem;
+  font-size: 3rem;
+
+  @media screen and (max-width: 768px){
+    font-size: 2.5rem;
+  }
 `;
 
 export const Paragraph = styled.p`
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-top: 22px;
   line-height: 2;
   white-space: pre-line;
   
   @media screen and (max-width: 768px){
     text-align: center;
+    font-size: 1rem;
   }
 `;
 export const ImageWrapper = styled.div`
   background-color: #000;
-  height: 450px;
-  width: 500px;
+  height: 500px;
+  width: 600px;
 
   @media screen and (max-width: 768px) {
     max-height: 0;

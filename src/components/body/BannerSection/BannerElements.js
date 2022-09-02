@@ -5,7 +5,7 @@ export const BannerContainer = styled.div`
   display: flex;
   justify-content: right;
   align-items: flex-start;
-  padding: 0 30px;
+  padding: 0 50px;
   height: 660px;
   position: relative;
   z-index: 1;
@@ -16,7 +16,7 @@ export const BannerContainer = styled.div`
   }
 `;
 
-export const BannerBg = styled.image`
+export const BannerBg = styled.img`
   position: absolute;
   top: 0;
   right: 0;
@@ -25,7 +25,10 @@ export const BannerBg = styled.image`
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: #7d7b7b;
+  object-fit: cover;
+  background-color: black;
+  opacity: 0.4;
+  /* background: #7d7b7b; */
 `;
 
 export const BannerContent = styled.div`
@@ -44,7 +47,7 @@ export const BannerContent = styled.div`
 `
 
 export const BannerH1 = styled.h1`
-    color: #000;
+    color: #FFF;
     font-size:64px;
     text-align: right;
 
