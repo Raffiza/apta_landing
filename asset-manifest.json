@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/apta_landing/static/css/main.b87af663.css",
+    "main.js": "/apta_landing/static/js/main.353fede1.js",
+    "static/js/787.0c4e675f.chunk.js": "/apta_landing/static/js/787.0c4e675f.chunk.js",
+    "static/media/bannerBg.png": "/apta_landing/static/media/bannerBg.9ac1890c7b2f7ada25d5.png",
+    "static/media/aboutBg.jpg": "/apta_landing/static/media/aboutBg.ef4e4d46bdbf4d2a63bb.jpg",
+    "static/media/logo.jpg": "/apta_landing/static/media/logo.6360c4c35854b3b5f920.jpg",
+    "static/media/icon-3.svg": "/apta_landing/static/media/icon-3.60ee3fae3ec4563804bd2e86a951e772.svg",
+    "index.html": "/apta_landing/index.html",
+    "static/media/icon-1.svg": "/apta_landing/static/media/icon-1.f4be0c676d3c86d5335c54b407de4d69.svg",
+    "static/media/icon-2.svg": "/apta_landing/static/media/icon-2.96844b7e088c6eaf9a09125c6eaec3e0.svg",
+    "main.b87af663.css.map": "/apta_landing/static/css/main.b87af663.css.map",
+    "main.353fede1.js.map": "/apta_landing/static/js/main.353fede1.js.map",
+    "787.0c4e675f.chunk.js.map": "/apta_landing/static/js/787.0c4e675f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b87af663.css",
+    "static/js/main.353fede1.js"
+  ]
+}
