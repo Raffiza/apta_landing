@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const AboutUsContainer = styled.div`
-/* background-color: green; */
-  height: 700px;
+  /* background-color: green; */
+  height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,23 +44,22 @@ export const RightContent = styled.div`
 `;
 
 export const TextWrapper = styled.div`
-height: 100%;
-width: 100%;
-display: flex;
-justify-content: flex-start;
-flex-direction: column;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     justify-content: center;
     align-items: center;
   }
-
-`
+`;
 
 export const Heading = styled.h1`
   font-size: 3rem;
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 768px) {
     font-size: 2.5rem;
   }
 `;
@@ -70,16 +69,17 @@ export const Paragraph = styled.p`
   margin-top: 22px;
   line-height: 2;
   white-space: pre-line;
-  
-  @media screen and (max-width: 768px){
+
+  @media screen and (max-width: 768px) {
     text-align: center;
-    font-size: 1rem;
+    white-space: normal;
+    /* font-size: 1rem; */
   }
 `;
 export const ImageWrapper = styled.div`
   background-color: #000;
-  height: 500px;
-  width: 600px;
+  max-height: 500px;
+  max-width: 600px;
 
   @media screen and (max-width: 768px) {
     max-height: 0;
@@ -88,7 +88,8 @@ export const ImageWrapper = styled.div`
 `;
 
 export const ImageBg = styled.img`
-height: 100%;
-width: 100%;
-background-color: #000;
-`
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  object-fit: fill;
+`;

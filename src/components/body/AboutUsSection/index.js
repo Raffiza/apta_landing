@@ -11,6 +11,8 @@ import {
   ImageBg
 } from "./AboutUsElements";
 
+import AboutBg from '../../../images/aboutBg.jpg'
+
 export const AboutUsSection = () => {
   return (
     <AboutUsContainer>
@@ -26,7 +28,7 @@ export const AboutUsSection = () => {
           </TextWrapper>
         </LeftContent>
         <RightContent>
-          <ImageWrapper><ImageBg/></ImageWrapper>
+          <ImageWrapper><ImageBg src={AboutBg}/></ImageWrapper>
         </RightContent>
       </ContentWrapper>
     </AboutUsContainer>
