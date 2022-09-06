@@ -15,7 +15,7 @@ import AboutBg from '../../../images/aboutBg.jpg'
 
 export const AboutUsSection = () => {
   return (
-    <AboutUsContainer>
+    <AboutUsContainer id="about">
       <ContentWrapper>
         <LeftContent>
           <TextWrapper>
