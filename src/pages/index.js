@@ -5,6 +5,7 @@ import { BannerSection } from "../components/body/BannerSection";
 import { ServicesSection } from "../components/body/ServicesSection";
 import { AboutUsSection } from "../components/body/AboutUsSection";
 import { ProjectsSection } from "../components/body/ProjectsSection";
+import { Footer } from "../components/footer";
 
 export const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +21,7 @@ export const Home = () => {
       <AboutUsSection/>
       <ServicesSection/>
       <ProjectsSection/>
+      <Footer/>
     </>
   );
 };
