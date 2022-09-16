@@ -36,7 +36,7 @@ export const ProjectsSection = () => {
               MusafirApp
             </ProjectsH2>
             <ProjectsP>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+           Sebuah aplikasi khusus pencarian restaurant Halal di seluruh dunia yang sudah terverifikasi dan bersertifikat Halal. 
             </ProjectsP>
           </TextWrapper>
           <ButtonWrapper>
