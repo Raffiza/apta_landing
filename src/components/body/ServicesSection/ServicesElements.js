@@ -6,7 +6,12 @@ export const ServicesContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
   /* background-color: blue; */
+
+  @media screen and (max-width: 1000px) {
+    height: 1000px;
+  }
 
   @media screen and (max-width: 768px) {
     height: 1400px;
@@ -44,6 +49,8 @@ export const ServicesBox = styled.div`
   max-height: 400px;
   max-width: 400px;
   padding: 20px;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
+  border-radius: 15px;
   transition: all 0.2s ease-in-out;
 `;
 
