@@ -59,9 +59,11 @@ export const TextWrapper = styled.div`
 export const Heading = styled.h1`
   font-size: 3rem;
 
-  @media screen and (max-width: 768px) {
-    font-size: 2.5rem;
+  @media screen and (max-width: 480px) {
+    font-size: 2rem;
   }
+
+ 
 `;
 
 export const Paragraph = styled.p`
@@ -71,10 +73,16 @@ export const Paragraph = styled.p`
   white-space: pre-line;
 
   @media screen and (max-width: 768px) {
+    font-size: 1.25rem;
     text-align: center;
     white-space: normal;
-    /* font-size: 1rem; */
   }
+
+  @media screen and (max-width: 480px) {
+    font-size: 1rem;
+    
+  }
+
 `;
 export const ImageWrapper = styled.div`
   background-color: #000;
