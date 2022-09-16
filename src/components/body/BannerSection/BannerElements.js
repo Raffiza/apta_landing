@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const BannerContainer = styled.div`
   background-color: #000;
   display: flex;
-  justify-content: right;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   padding: 0 50px;
   height: 660px;
   position: relative;
@@ -38,8 +38,7 @@ export const BannerContent = styled.div`
     padding: 8px 24px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    margin-top: 160px;
+    align-items: center;
 
     @media screen and (max-width: 768px) {
         margin-top: 0px;
@@ -49,7 +48,7 @@ export const BannerContent = styled.div`
 export const BannerH1 = styled.h1`
     color: #FFF;
     font-size:64px;
-    text-align: right;
+    text-align: center;
 
     @media screen and (max-width: 768px) {
         font-size: 58px;
