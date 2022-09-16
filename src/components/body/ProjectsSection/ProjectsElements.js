@@ -7,9 +7,8 @@ export const ProjectsContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 50px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1100px) {
     height: 1000px;
   }
 `;
@@ -27,10 +26,9 @@ export const ProjectsWrapper = styled.div`
   grid-auto-flow: dense;
   align-items: center;
   justify-content: center;
+  padding: 0 50px;
 
-  margin: 0 auto;
-
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1100px) {
     grid-template-columns: 1fr;
     grid-row-gap: 100px;
   }
@@ -42,7 +40,7 @@ export const LeftContent = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
 
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1100px) {
     justify-content: center;
     align-items: center;
     grid-row: 2;
@@ -57,14 +55,14 @@ export const RightContent = styled.div`
 `;
 
 export const TextWrapper = styled.div`
-  max-width: 250px;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: 16px;
 
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1100px) {
     justify-content: center;
     align-items: center;
   }
@@ -76,8 +74,6 @@ export const ButtonWrapper = styled.div`
 `;
 
 export const SliderWrapper = styled.div`
-  max-height: 350px;
-  max-width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,10 +83,24 @@ export const SliderWrapper = styled.div`
 export const ProjectsH2 = styled.h2`
   font-size: 2rem;
   margin-bottom: 16px;
+
+  @media screen and (max-width: 768px){
+    font-size: 1.75rem;
+  }
 `;
 
 export const ProjectsP = styled.p`
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 2;
+
+  @media screen and (max-width: 1100px){
+    text-align: center;
+  }
+  
+
+  @media screen and (max-width: 768px){
+    font-size: 1rem;
+  }
 `;
 
 export const Button = styled.button`
@@ -106,11 +116,16 @@ export const Button = styled.button`
 `;
 
 export const ProjectsImgWrapper = styled.div`
-  max-height: 300px;
-  max-width: 300px;
+  max-height: 450px;
+  max-width: 450px;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 768px){
+    max-height: 350px;
+  max-width: 350px;
+  }
 `;
 
 export const ProjectsImg = styled.img`
