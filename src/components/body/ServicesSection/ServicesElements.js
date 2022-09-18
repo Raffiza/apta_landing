@@ -27,7 +27,7 @@ export const ServicesWrapper = styled.div`
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
+  align-items: flex-start;
   grid-gap: 40px;
   padding: 0 50px;
   /* background-color: aliceblue; */
@@ -38,6 +38,7 @@ export const ServicesWrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
+    padding: 0 16px;
   }
 `;
 
@@ -52,6 +53,10 @@ export const ServicesBox = styled.div`
   filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
   border-radius: 15px;
   transition: all 0.2s ease-in-out;
+
+  @media screen and (max-width: 1000px){
+    max-height: 600px;
+  }
 `;
 
 export const ServicesIcon = styled.img`
@@ -65,7 +70,7 @@ export const ServicesH1 = styled.h1`
   color: #000;
   margin-bottom: 64px;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     font-size: 2rem;
   }
 `;

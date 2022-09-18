@@ -22,6 +22,7 @@ export const ContentWrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
+    padding: 0 16px;
   }
 `;
 
@@ -59,7 +60,7 @@ export const TextWrapper = styled.div`
 export const Heading = styled.h1`
   font-size: 3rem;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     font-size: 2rem;
   }
 
@@ -75,7 +76,7 @@ export const Paragraph = styled.p`
   @media screen and (max-width: 768px) {
     font-size: 1.25rem;
     text-align: center;
-    white-space: normal;
+    /* white-space: normal; */
   }
 
   @media screen and (max-width: 480px) {

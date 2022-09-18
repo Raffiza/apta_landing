@@ -8,6 +8,10 @@ export const FooterContainer = styled.div`
     align-items: center;
     background-color: #3D4144;
     padding: 50px 50px;
+
+    @media screen and (max-width: 768px){
+        padding: 16px 16px;
+    }
 `
 
 export const FooterWrapper = styled.div`

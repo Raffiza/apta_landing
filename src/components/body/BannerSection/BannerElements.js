@@ -11,8 +11,7 @@ export const BannerContainer = styled.div`
   z-index: 1;
 
   @media screen and (max-width: 768px){
-    justify-content: center;
-    align-items: center;
+    padding: 0 16px;
   }
 `;
 

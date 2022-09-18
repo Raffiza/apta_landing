@@ -16,6 +16,10 @@ export const ProjectsContainer = styled.div`
 export const ProjectsH1 = styled.h1`
   font-size: 2.5rem;
   margin-bottom: 80px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 2rem;
+  }
 `;
 
 export const ProjectsWrapper = styled.div`
@@ -31,6 +35,10 @@ export const ProjectsWrapper = styled.div`
   @media screen and (max-width: 1100px) {
     grid-template-columns: 1fr;
     grid-row-gap: 100px;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 0 16px;
   }
 `;
 
@@ -141,7 +149,7 @@ export const SliderButton = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 20px;
+  padding: 20px 0;
 `;
 
 export const NextIcon = styled(BsChevronCompactRight)`
