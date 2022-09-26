@@ -1,32 +1,60 @@
 import React from "react";
 import {
   FooterContainer,
-  FooterH1,
   FooterWrapper,
+  FooterSectionWrapper,
   FooterTextWrapper,
   FooterIconWrapper,
+  FooterNavWrapper,
+  TextWrapperContent,
+  TextCompanyName,
   TextCompanyNumber,
   TextCompanyEmail,
   TextCompanyAddress,
   IconWrapper,
-  IconIG
+  IconPhone,
+  IconMail,
+  IconIG,
+  IconFB,
+  IconTWT,
+  FooterSectionDivider,
 } from "./FooterElements";
 
 export const Footer = () => {
   return (
     <FooterContainer id="contact">
       <FooterWrapper>
-        <FooterH1>Contact Us</FooterH1>
-        <FooterTextWrapper>
-          <TextCompanyNumber>+62 2526316</TextCompanyNumber>
-          <TextCompanyEmail>INFO@APTAINDONESIA.COM</TextCompanyEmail>
-          <TextCompanyAddress>JL.BENDUNGAN ASAHAN NO.6 JAKARTA PUSAT 10210</TextCompanyAddress>
-        </FooterTextWrapper>
-        <FooterIconWrapper>
-          <IconWrapper>
-            <IconIG/>
-          </IconWrapper>
-        </FooterIconWrapper>
+        <FooterSectionWrapper>
+          <FooterTextWrapper>
+            <TextCompanyName>APTA</TextCompanyName>
+            <TextCompanyAddress>
+              JL.BENDUNGAN ASAHAN NO.6 JAKARTA PUSAT 10210
+            </TextCompanyAddress>
+          </FooterTextWrapper>
+          <FooterTextWrapper>
+            <TextWrapperContent>
+              <IconPhone />
+              <TextCompanyNumber>+62 2526316</TextCompanyNumber>
+            </TextWrapperContent>
+            <TextWrapperContent>
+              <IconMail />
+              <TextCompanyEmail>INFO@APTAINDONESIA.COM</TextCompanyEmail>
+            </TextWrapperContent>
+          </FooterTextWrapper>
+        </FooterSectionWrapper>
+        <FooterSectionDivider/>
+        <FooterSectionWrapper>
+          <FooterIconWrapper>
+            <IconWrapper>
+              <IconIG />
+              <IconFB />
+              <IconTWT />
+            </IconWrapper>
+          </FooterIconWrapper>
+          <FooterNavWrapper>
+            
+          </FooterNavWrapper>
+        </FooterSectionWrapper>
       </FooterWrapper>
     </FooterContainer>
   );
