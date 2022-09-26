@@ -13,11 +13,6 @@ export const Sidebar = ({ isOpen, toggle }) => {
     <SidebarContainer
       isOpen={isOpen}
       onClick={toggle}
-      smooth={true}
-      duration={500}
-      spy={true}
-      exact="true"
-      offset={-80}
     >
       <Icon onClick={toggle}>
         <CloseIcon />
@@ -31,7 +26,7 @@ export const Sidebar = ({ isOpen, toggle }) => {
             duration={500}
             spy={true}
             exact="true"
-            offset={-80}
+            offset={-40}
           >
             About Us
           </SidebarLink>
@@ -42,7 +37,7 @@ export const Sidebar = ({ isOpen, toggle }) => {
             duration={500}
             spy={true}
             exact="true"
-            offset={-80}
+            offset={-40}
           >
             Services
           </SidebarLink>
@@ -53,7 +48,7 @@ export const Sidebar = ({ isOpen, toggle }) => {
             duration={500}
             spy={true}
             exact="true"
-            offset={-80}
+            offset={-40}
           >
             Projects
           </SidebarLink>
@@ -64,7 +59,7 @@ export const Sidebar = ({ isOpen, toggle }) => {
             duration={500}
             spy={true}
             exact="true"
-            offset={-80}
+            offset={-40}
           >
             Contact Us
           </SidebarLink>
