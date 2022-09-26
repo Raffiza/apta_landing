@@ -27,7 +27,6 @@ export const BannerBg = styled.img`
   object-fit: cover;
   background-color: black;
   opacity: 0.4;
-  /* background: #7d7b7b; */
 `;
 
 export const BannerContent = styled.div`

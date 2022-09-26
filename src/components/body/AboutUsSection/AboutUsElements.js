@@ -11,7 +11,7 @@ export const AboutUsContainer = styled.div`
 
 export const ContentWrapper = styled.div`
   max-width: 1400px;
-  /* background-color: beige; */
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: flex-start;
@@ -87,8 +87,10 @@ export const Paragraph = styled.p`
 `;
 export const ImageWrapper = styled.div`
   background-color: #000;
-  max-height: 500px;
+  max-height: 600px;
   max-width: 600px;
+  height: 100%;
+  width: 100%;
 
   @media screen and (max-width: 768px) {
     max-height: 0;
@@ -100,5 +102,5 @@ export const ImageBg = styled.img`
   height: 100%;
   width: 100%;
   background-color: #000;
-  object-fit: fill;
+  object-fit: cover;
 `;

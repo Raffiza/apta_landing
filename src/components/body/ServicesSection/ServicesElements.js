@@ -1,13 +1,11 @@
 import styled from "styled-components";
 
 export const ServicesContainer = styled.div`
-  height: 700px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-  /* background-color: blue; */
 
   @media screen and (max-width: 1000px) {
     height: 1000px;
@@ -29,8 +27,7 @@ export const ServicesWrapper = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   align-items: flex-start;
   grid-gap: 40px;
-  padding: 0 50px;
-  /* background-color: aliceblue; */
+  padding: 50px 50px;
 
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
@@ -47,7 +44,7 @@ export const ServicesBox = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-height: 400px;
+  min-height: 400px;
   max-width: 400px;
   padding: 20px;
   filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));

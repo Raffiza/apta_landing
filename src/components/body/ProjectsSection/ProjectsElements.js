@@ -24,13 +24,14 @@ export const ProjectsH1 = styled.h1`
 
 export const ProjectsWrapper = styled.div`
   max-width: 1400px;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 100px;
   grid-auto-flow: dense;
   align-items: center;
   justify-content: center;
-  padding: 0 50px;
+  padding: 50px 50px;
 
   @media screen and (max-width: 1100px) {
     grid-template-columns: 1fr;
