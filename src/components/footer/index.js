@@ -11,6 +11,7 @@ import {
   TextCompanyNumber,
   TextCompanyEmail,
   TextCompanyAddress,
+  TextNav,
   IconWrapper,
   IconPhone,
   IconMail,
@@ -52,7 +53,18 @@ export const Footer = () => {
             </IconWrapper>
           </FooterIconWrapper>
           <FooterNavWrapper>
-            
+            <TextNav>
+              About Us
+            </TextNav>
+            <TextNav>
+              Services
+            </TextNav>
+            <TextNav>
+              Projects
+            </TextNav>
+            <TextNav>
+              Contact Us
+            </TextNav>
           </FooterNavWrapper>
         </FooterSectionWrapper>
       </FooterWrapper>

@@ -1,5 +1,10 @@
 import styled from "styled-components";
-import { BsInstagram, BsFacebook, BsTwitter,BsFillTelephoneFill } from "react-icons/bs";
+import {
+  BsInstagram,
+  BsFacebook,
+  BsTwitter,
+  BsFillTelephoneFill,
+} from "react-icons/bs";
 import { IoMail } from "react-icons/io5";
 
 export const FooterContainer = styled.div`
@@ -28,12 +33,12 @@ export const FooterWrapper = styled.div`
 `;
 
 export const FooterSectionDivider = styled.div`
-display: flex;
-width: 100%;
-height: 1px;
-background-color: #f3bd3d;
-margin: 50px 0;
-`
+  display: flex;
+  width: 100%;
+  height: 1px;
+  background-color: #f3bd3d;
+  margin: 50px 0;
+`;
 
 export const FooterSectionWrapper = styled.div`
   display: flex;
@@ -52,13 +57,12 @@ export const FooterTextWrapper = styled.div`
 `;
 
 export const TextWrapperContent = styled.div`
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
   grid-column-gap: 20px;
-flex-direction: row;
-grid-column-gap: 10px;
-
-`
+  flex-direction: row;
+  grid-column-gap: 10px;
+`;
 
 export const FooterIconWrapper = styled.div`
   display: grid;
@@ -67,8 +71,11 @@ export const FooterIconWrapper = styled.div`
 `;
 
 export const FooterNavWrapper = styled.div`
-display: grid;
-`
+  display: grid;
+  flex-direction: column;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+`;
 
 export const TextCompanyName = styled.p`
   font-size: 1rem;
@@ -90,6 +97,13 @@ export const TextCompanyAddress = styled.p`
   font-size: 1rem;
   color: #fff;
   text-align: left;
+`;
+
+export const TextNav = styled.p`
+  font-size: 1rem;
+  color: #fff;
+  border-bottom: #f3bd3d;
+  border: 1px;
 `;
 
 export const IconWrapper = styled.div`
