@@ -1,23 +1,17 @@
 import React from "react";
 import {
   ServicesContainer,
-  ServicesH1,
-  ServicesWrapper,
-  ServicesBox,
-  ServicesIcon,
-  ServicesH2,
-  ServicesP,
+  ServicesH1
+ 
 } from "./ServicesElements";
-import Icon1 from "../../../images/icon-1.svg";
-import Icon2 from "../../../images/icon-2.svg";
-import Icon3 from "../../../images/icon-3.svg";
+import { ServicesContent } from "./ServiceContent";
+import { homeObjOne,homeObjTwo,homeObjThree } from "./ServiceContent/ServicesData";
 
 export const ServicesSection = () => {
   return (
     <ServicesContainer id="services">
       <ServicesH1>Our Services</ServicesH1>
-      <ServicesWrapper>
-        <ServicesBox>
+        {/* <ServicesBox>
           <ServicesIcon src={Icon1} />
           <ServicesH2>Learning & Human Capital</ServicesH2>
           <ServicesP>
@@ -47,8 +41,10 @@ export const ServicesSection = () => {
             Jasa, Printing Management Services, APTA Podcast, Website Design,
             dan Digital Marketing Campaign.
           </ServicesP>
-        </ServicesBox>
-      </ServicesWrapper>
+        </ServicesBox> */}
+       <ServicesContent {...homeObjOne}/>
+       <ServicesContent {...homeObjTwo}/>
+       <ServicesContent {...homeObjThree}/>
     </ServicesContainer>
   );
 };
