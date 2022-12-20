@@ -59,6 +59,7 @@ export const TextWrapper = styled.div`
 
 export const Heading = styled.h1`
   font-size: 3rem;
+  font-family: "Manrope_ExtraBold";
 
   @media screen and (max-width: 768px) {
     font-size: 2rem;
@@ -89,8 +90,6 @@ export const ImageWrapper = styled.div`
   background-color: #000;
   max-height: 600px;
   max-width: 600px;
-  height: 100%;
-  width: 100%;
 
   @media screen and (max-width: 768px) {
     max-height: 0;

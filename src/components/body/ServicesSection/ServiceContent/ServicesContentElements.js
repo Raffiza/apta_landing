@@ -1,15 +1,20 @@
 import styled from "styled-components";
+import '../../../../App.css'
 
 export const ServicesWrapper = styled.div` 
   display: grid;
   z-index: 1;
-  height: 800px;
+  height: 860px;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding: 0 24px;
   justify-content: center;
   background: ${({lightBg}) => (lightBg ? '#fff' : '#125AA4')};
+
+  @media screen and (max-width: 768px) {
+    /* height: 960px; */
+  }
 `;
 
 
@@ -36,15 +41,13 @@ grid-area: col2;
 `
 export const TextWrapper = styled.div`
 max-width: 540px;
-padding-top: 0;
-padding-bottom: 60px;
 `
 
 export const Heading = styled.h1`
 margin-bottom: 24px;
-font-size: 64px;
+font-size: 4rem;
 line-height: 1.1;
-font-weight: 800;
+font-family: "Manrope_ExtraBold";
 
 color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
 
@@ -54,13 +57,13 @@ color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
 }
 
 @media screen and (max-width: 480px){
-    font-size: 48px;
+    font-size: 2.5rem;
 }
 `
 export const Subtitle = styled.p`
   /* max-width: 440px; */
   margin-bottom: 35px;
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: justify;
   line-height: 2;
   color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
@@ -68,9 +71,12 @@ export const Subtitle = styled.p`
     @media screen and (max-width: 768px){
         text-align: center;
     }
+    @media screen and (max-width: 480px){
+    font-size: 1rem;
+}
 `
 export const ImgWrap = styled.div`
-max-width: 555px;
+max-width: 550px;
 height: 100%;
 margin: 0;
 

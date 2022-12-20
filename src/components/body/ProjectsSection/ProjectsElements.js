@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 
 export const ProjectsContainer = styled.div`
-  height: 800px;
+  height: 860px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,6 +16,7 @@ export const ProjectsContainer = styled.div`
 export const ProjectsH1 = styled.h1`
   font-size: 2.5rem;
   margin-bottom: 80px;
+  font-family: "Manrope_ExtraBold";
 
   @media screen and (max-width: 768px) {
     font-size: 2rem;

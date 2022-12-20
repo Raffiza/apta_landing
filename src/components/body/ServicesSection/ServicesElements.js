@@ -16,6 +16,7 @@ export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
   color: #000;
   margin-bottom: 64px;
+  font-family: "Manrope_ExtraBold";
 
   @media screen and (max-width: 768px) {
     font-size: 2rem;
