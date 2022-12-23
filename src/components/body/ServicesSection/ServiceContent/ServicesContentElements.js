@@ -4,7 +4,7 @@ import '../../../../App.css'
 export const ServicesWrapper = styled.div` 
   display: grid;
   z-index: 1;
-  height: 860px;
+  height: 880px;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -53,7 +53,7 @@ color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
 
 @media screen and (max-width: 768px){
   text-align: center;
-
+  font-size: 3rem;
 }
 
 @media screen and (max-width: 480px){
@@ -61,7 +61,7 @@ color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
 }
 `
 export const Subtitle = styled.p`
-  /* max-width: 440px; */
+  max-width: 440px;
   margin-bottom: 35px;
   font-size: 1.25rem;
   text-align: justify;
@@ -70,6 +70,7 @@ export const Subtitle = styled.p`
   
     @media screen and (max-width: 768px){
         text-align: center;
+        margin: auto;
     }
     @media screen and (max-width: 480px){
     font-size: 1rem;
@@ -78,7 +79,7 @@ export const Subtitle = styled.p`
 export const ImgWrap = styled.div`
 max-width: 550px;
 height: 100%;
-margin: 0;
+margin: auto;
 
 @media screen and (max-width: 768px){
     max-width: 400px;
