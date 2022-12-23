@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const AboutUsContainer = styled.div`
   /* background-color: green; */
-  height: 800px;
+  height: 880px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,6 +22,7 @@ export const ContentWrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
+    width: auto;
     padding: 0 16px;
   }
 `;
