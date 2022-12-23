@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 
 export const ProjectsContainer = styled.div`
-  height: 860px;
+  height: 880px;
   display: flex;
   flex-direction: column;
   justify-content: center;
