@@ -1,24 +1,31 @@
 {
   "files": {
-    "main.css": "/apta_landing/static/css/main.b87af663.css",
-    "main.js": "/apta_landing/static/js/main.3d3d4fde.js",
+    "main.css": "/apta_landing/static/css/main.0fcb56b1.css",
+    "main.js": "/apta_landing/static/js/main.1d4a7f0b.js",
     "static/js/787.0c4e675f.chunk.js": "/apta_landing/static/js/787.0c4e675f.chunk.js",
     "static/media/bannerBg.png": "/apta_landing/static/media/bannerBg.9ac1890c7b2f7ada25d5.png",
     "static/media/slide1.png": "/apta_landing/static/media/slide1.5b9a3be9b88eef928482.png",
     "static/media/slide3.png": "/apta_landing/static/media/slide3.775a3f67febee1eea227.png",
     "static/media/slide2.png": "/apta_landing/static/media/slide2.46ff4a2c997b61c0325f.png",
-    "static/media/aboutBg.jpg": "/apta_landing/static/media/aboutBg.ef4e4d46bdbf4d2a63bb.jpg",
+    "static/media/Manrope-ExtraBold.ttf": "/apta_landing/static/media/Manrope-ExtraBold.b0ac9f1b582da5d98892.ttf",
+    "static/media/Manrope-SemiBold.ttf": "/apta_landing/static/media/Manrope-SemiBold.0a3797b8dd78c25ef6b4.ttf",
+    "static/media/Manrope-Medium.ttf": "/apta_landing/static/media/Manrope-Medium.7e416a42443e06ed7d57.ttf",
+    "static/media/Manrope-Regular.ttf": "/apta_landing/static/media/Manrope-Regular.25323263b2aac026e777.ttf",
+    "static/media/Manrope-Bold.ttf": "/apta_landing/static/media/Manrope-Bold.15c3a2fdedaee1ebf773.ttf",
+    "static/media/Manrope-Light.ttf": "/apta_landing/static/media/Manrope-Light.2c101e26164e3cadcf07.ttf",
+    "static/media/Manrope-ExtraLight.ttf": "/apta_landing/static/media/Manrope-ExtraLight.df3135e104e896d0fa31.ttf",
+    "static/media/aboutBg2.jpg": "/apta_landing/static/media/aboutBg2.4ddd7cfa9f061a858d30.jpg",
     "static/media/logo.jpg": "/apta_landing/static/media/logo.6360c4c35854b3b5f920.jpg",
-    "static/media/icon-3.svg": "/apta_landing/static/media/icon-3.60ee3fae3ec4563804bd2e86a951e772.svg",
+    "static/media/service-3.svg": "/apta_landing/static/media/service-3.d1b70c7bf15f208a8fccbff89de28f30.svg",
+    "static/media/service-2.svg": "/apta_landing/static/media/service-2.f9c0a0f0daa9a8cc3d735c11227632e2.svg",
+    "static/media/service-1.svg": "/apta_landing/static/media/service-1.de142c0e44fd625744cab8ec3f739fc7.svg",
     "index.html": "/apta_landing/index.html",
-    "static/media/icon-1.svg": "/apta_landing/static/media/icon-1.f4be0c676d3c86d5335c54b407de4d69.svg",
-    "static/media/icon-2.svg": "/apta_landing/static/media/icon-2.96844b7e088c6eaf9a09125c6eaec3e0.svg",
-    "main.b87af663.css.map": "/apta_landing/static/css/main.b87af663.css.map",
-    "main.3d3d4fde.js.map": "/apta_landing/static/js/main.3d3d4fde.js.map",
+    "main.0fcb56b1.css.map": "/apta_landing/static/css/main.0fcb56b1.css.map",
+    "main.1d4a7f0b.js.map": "/apta_landing/static/js/main.1d4a7f0b.js.map",
     "787.0c4e675f.chunk.js.map": "/apta_landing/static/js/787.0c4e675f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b87af663.css",
-    "static/js/main.3d3d4fde.js"
+    "static/css/main.0fcb56b1.css",
+    "static/js/main.1d4a7f0b.js"
   ]
 }
