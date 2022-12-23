@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export const BannerContainer = styled.div`
   background-color: #000;
+  clip-path: polygon(0% 0%, 100% 0, 100% 90%, 50% 100%, 0 90% );
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 50px;
-  height: 660px;
+  height: 880px;
   position: relative;
   z-index: 1;
 
@@ -14,6 +15,7 @@ export const BannerContainer = styled.div`
     padding: 0 16px;
   }
 `;
+
 
 export const BannerBg = styled.img`
   position: absolute;
@@ -55,4 +57,8 @@ export const BannerH1 = styled.h1`
     @media screen and (max-width: 480px) {
         font-size: 50px;
     }
+`
+
+export const BannerButtonWrapper = styled.div`
+margin-top: 50px;
 `
